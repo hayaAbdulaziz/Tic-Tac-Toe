@@ -1,18 +1,19 @@
 let call=document.querySelectorAll(".cell");
 var turn = document.getElementById("turn");
+var N_SIZE = 3;
 let Player1=1;
 function Play(){
     console.log(this);
     if(Player1==1){
         this.innerHTML="X";
         Player1=0;
-        turn.innerHTML = "O Turn Now";
+        turn.innerHTML = "O Now";
        
     }
     else{
         this.innerHTML="O";
         Player1=1;
-        turn.innerHTML = "X Turn Now";
+        turn.innerHTML = "X  Now";
        
     }
     getWinner();
@@ -33,6 +34,7 @@ function selectWinnerBoxes(b1,b2,b3){
     b3.classList.add("win");
     turn.innerHTML = b1.innerHTML + " winner";
     turn.style.fontSize = "40px";
+    
     remove1();
    
 }  
@@ -53,9 +55,9 @@ function remove1(){
             }
             
         }
-
+       
 function getWinner(){
-    
+   
     var box1 = document.getElementById("0"),
         box2 = document.getElementById("1"),
         box3 = document.getElementById("2"),
@@ -89,7 +91,12 @@ else if(box1.innerHTML !== "" && box1.innerHTML === box5.innerHTML && box1.inner
 selectWinnerBoxes(box1,box5,box9);}
 
 else if(box3.innerHTML !== "" && box3.innerHTML === box5.innerHTML && box3.innerHTML === box7.innerHTML){
-selectWinnerBoxes(box3,box5,box7);
+selectWinnerBoxes(box3,box5,box7);}
+
+ 
 
 }
-    }
+
+//else if (moves === N_SIZE * N_SIZE) {
+  //  alert("Draw");
+ //}
