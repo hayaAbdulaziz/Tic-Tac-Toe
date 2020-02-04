@@ -1,8 +1,8 @@
 let call = document.querySelectorAll(".cell");
 var turn = document.getElementById("turn");
-var N_SIZE = 3;
 let Player1 = 1;
 let moveCount = 0;
+//Start a game where first Player enter x and second player enter o
 
 function Play() {
     console.log(this);
@@ -19,10 +19,11 @@ function Play() {
 
     }
     moveCount++;
+    //Call Method getWinner
     getWinner();
 }
 
-
+//
 for (let i = 0; i < call.length; i++) {
     call[i].addEventListener("click", Play, {
         once: true
@@ -30,9 +31,7 @@ for (let i = 0; i < call.length; i++) {
 
 
 }
-
-
-
+ 
 function selectWinnerBoxes(b1, b2, b3) {
     b1.classList.add("win");
     b2.classList.add("win");
@@ -96,7 +95,6 @@ function getWinner() {
         selectWinnerBoxes(box3, box5, box7);
     } else if (moveCount === 9) {
         turn.innerHTML = "Tie";
-
    
     }
 

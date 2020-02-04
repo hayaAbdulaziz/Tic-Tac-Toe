@@ -39,9 +39,10 @@ span{
 	display: block;
 	text-align: center;
 	font-family: sans-serif;
-	color: #fff;
+	color:#fff;
+	font-weight: bold;
 	font-size: 25px;
-	background:rgba(0, 217, 255, 0.301);
+	background-color: rgb(94, 172, 236);
 }
 button{
 	 background: rgb(94, 172, 236);
@@ -54,11 +55,17 @@ button{
     font-size: 22px;
     font-family: sans-serif;
 	margin-top: 500px;
-    margin-left: 350px;
-	
+	margin-left: 620px;
 }
 .cell{
 	font-weight: bold;
 	font-size: 25px;
 	font-family: sans-serif;
 }
+/* 
+body{
+	background-image: url("XO1.png");
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+} */
