@@ -43,17 +43,18 @@ span{
 	font-size: 25px;
 	background:rgba(0, 217, 255, 0.301);
 }
-button{background:rgb(94, 172, 236);
-	color: #fff;
-	font-weight: bold;
-	border: 1px solid rgb(94, 172, 236);
-	 cursor: pointer; 
-	 width: 200px;
-	 height: 40px; 
-	 font-size: 22px;
-	 font-family: sans-serif;
-	 margin: 10px ;
-	 margin-bottom: 10px ;
+button{
+	 background: rgb(94, 172, 236);
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid rgb(94, 172, 236);
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    font-size: 22px;
+    font-family: sans-serif;
+	margin-top: 500px;
+    margin-left: 350px;
 	
 }
 .cell{
