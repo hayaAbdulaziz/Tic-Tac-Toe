@@ -6,7 +6,7 @@
 4. programming language JavaScript .
 
 ### Link to wireframes and user stories.
-![wireframe](Tic-Tac-ToeW.png)
+![wireframe](tic-tac-toeW.png)
  User Stories:
  Tic-Tac-Toe game allows two player games.
  Containing board and X and O and  Button"PlayAgain" With a bar showing game status.
