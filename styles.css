@@ -62,10 +62,12 @@ button{
 	font-size: 25px;
 	font-family: sans-serif;
 }
-/* 
+
 body{
-	background-image: url("XO1.png");
-	background-repeat: no-repeat;
-  background-attachment: fixed;
+	background-image: url("Tic-Tac-Toe.png");
+	  background-attachment: fixed;
+	  height: 500px;
+	  background-size: cover;
   background-position: top; 
-} */
+  
+}

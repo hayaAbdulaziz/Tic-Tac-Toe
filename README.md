@@ -1,11 +1,12 @@
 # Tic-Tac-Toe
-*List technologies used:
+### List technologies used:
 1-Visual Studio Code
 2-programming language HTML .
 3-programming language CSS .
 4-programming language JavaScript .
 ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
-*Link to wireframes and user stories.
+### Link to wireframes and user stories.
+![wireframe](Tic-Tac-ToeW.png)
  User Stories:
  Tic-Tac-Toe game allows two player games.
  Containing board and X and O and  Button"PlayAgain" With a bar showing game status.
@@ -15,7 +16,7 @@
  There is a bar showing the status of the game،
 It will be announced if X plays or player O and winner and tie.
 ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
- *Document your planning and tell a story about your development process and problem-solving strategy.
+ ### Document your planning and tell a story about your development process and problem-solving strategy.
 List of problems and their solution:
 1-The problem is let Player1 was defined inside function Play ()
 Solve it to be outside function.
@@ -26,9 +27,14 @@ Solve it by adding addEventListener after an command remove
 4-The problem was that let let moveCount+= 1; function getWinner () help determine Tie.
 Solved it was moveCount=٠ starting from zero
 ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
-*Describe how you solved for the winner
+### List unsolved problems which would be fixed in future iterations.
+I dont have site fully responsive so that it is playable from a mobile phone
+I hope in the future it will be site fully responsive so that it is playable from a mobile phone
+
+ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+### Describe how you solved for the winner
 In function getWinner (), it is defined from box1 to box9 and indicated by using the id that is set for each box in the html table،Then it must be on condition that the value of box1 is not equal null and if the value of box1 is equal to the value of box2 and the value of box3 then return the winner by using selectWinnerBoxes،In selectWinnerBoxes we take three values that determine the winner by condition and we print Winner.
 ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
-*Describe how some of your favorite functions work
+### Describe how some of your favorite functions work
 function Play () Here the game starts Was defined
   let Player1 = 1;and  turn out function Then a condition was set inside if let Player1 = 1 equals one so type X and turn O else  type O turn X
