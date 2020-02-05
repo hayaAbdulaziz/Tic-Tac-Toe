@@ -35,6 +35,7 @@ for (let i = 0; i < call.length; i++) {
  ///function Determine the winner
  // to select and display the winner message
 function selectWinnerBoxes(b1, b2, b3) {
+    //use the classList to  add classes
     b1.classList.add("win");
     b2.classList.add("win");
     b3.classList.add("win");
