@@ -8,13 +8,14 @@
 ### Link to wireframes and user stories.
 ![wireframe](tic-tac-toeW.png)
  User Stories:
- Tic-Tac-Toe game allows two player games.
- Containing board and X and O and  Button"PlayAgain" With a bar showing game status.
- An easy game, the player can put a mark X or O in box he wants in board .
- None of the players can place a mark above the other.
- A player cannot complete the game if one of them wins or the game ends in a negative tie،But he can start playing a new game with Button"PlayAgain".
- There is a bar showing the status of the game،
-It will be announced if X plays or player O and winner and tie.
+ ### User Stories:
+* As a user, I should be able to start a new tic tac toe game
+* As a user, I should be able to click on a square to add X first and then O, and so on
+* As a user, I should be shown a message after each turn for if I win, lose, tie or who's turn it is next
+* As a user, I should not be able to click the same square twice
+* As a user, I should be shown a message when I win, lose or tie
+* As a user, I should not be able to continue playing once I win, lose, or tie
+* As a user, I should be able to play the game again without refreshing the page
 
  ### Document your planning and tell a story about your development process and problem-solving strategy.
 List of problems and their solution:
