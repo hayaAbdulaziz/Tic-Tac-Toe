@@ -18,13 +18,13 @@ It will be announced if X plays or player O and winner and tie.
 
  ### Document your planning and tell a story about your development process and problem-solving strategy.
 List of problems and their solution:
-1-The problem is let Player1 was defined inside function Play ()
+* The problem is let Player1 was defined inside function Play ()
 Solve it to be outside function.
-2-in addEventListener The problem was that one could be marked above another mark and its changes
+* in addEventListener The problem was that one could be marked above another mark and its changes
 solved by{once: true}
-3-The problem with replay()I cleared the previous game but I was unable to start a new game
+* The problem with replay()I cleared the previous game but I was unable to start a new game
 Solve it by adding addEventListener after an command remove
-4-The problem was that let let moveCount+= 1; function getWinner () help determine Tie.
+* The problem was that let let moveCount+= 1; function getWinner () help determine Tie.
 Solved it was moveCount=٠ starting from zero
 
 ### List unsolved problems which would be fixed in future iterations.
