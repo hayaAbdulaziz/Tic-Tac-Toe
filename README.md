@@ -7,7 +7,7 @@
 
 ### Link to wireframes and user stories.
 ![wireframe](tic-tac-toeW.png)
- User Stories:
+
  ### User Stories:
 * As a user, I should be able to start a new tic tac toe game
 * As a user, I should be able to click on a square to add X first and then O, and so on
