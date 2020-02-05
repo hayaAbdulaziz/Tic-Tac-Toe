@@ -18,8 +18,7 @@
 * As a user, I should be able to play the game again without refreshing the page
 
  ### Document your planning and tell a story about your development process and problem-solving strategy.
-
- Building a table to which the game will be built then JavaScript code and css
+Building tables on which the game will be built, and then JavaScript and css code work
  List of problems and their solution:
 * The problem is let Player1 was defined inside function Play ()
 Solve it to be outside function.
