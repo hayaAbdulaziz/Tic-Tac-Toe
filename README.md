@@ -17,7 +17,10 @@
 * As a user, I should not be able to continue playing once I win, lose, or tie
 * As a user, I should be able to play the game again without refreshing the page
 
- ### problem-solving strategy
+ ### Document your planning and tell a story about your development process and problem-solving strategy.
+
+ Building a table to which the game will be built then JavaScript code and css
+ List of problems and their solution:
 * The problem is let Player1 was defined inside function Play ()
 Solve it to be outside function.
 * in addEventListener The problem was that one could be marked above another mark and its changes
