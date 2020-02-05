@@ -18,7 +18,7 @@
 * As a user, I should be able to play the game again without refreshing the page
 
  ### Document your planning and tell a story about your development process and problem-solving strategy.
-Building tables on which the game will be built then JavaScript and css code work
+Building tables on which the game will be built then JavaScript and css code
 
 
  List of problems and their solution:
