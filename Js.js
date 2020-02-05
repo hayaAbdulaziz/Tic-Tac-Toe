@@ -3,10 +3,11 @@ var turn = document.getElementById("turn");
 let Player1 = 1;
 let moveCount = 0;
 //Start a game where first Player enter x and second player enter o
-
+turn.innerHTML = "Start with X";
 function Play() {
     console.log(this);
-
+    
+    turn.innerHTML = "O Now";
     if (Player1 == 1) {
         this.innerHTML = "X";
         Player1 = 0;
