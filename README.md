@@ -1,5 +1,5 @@
 # Tic-Tac-Toe
-### List technologies used:
+###  technologies used:
 1. Visual Studio Code
 2. programming language HTML .
 3. programming language CSS .
@@ -17,7 +17,7 @@
 * As a user, I should not be able to continue playing once I win, lose, or tie
 * As a user, I should be able to play the game again without refreshing the page
 
- ### Document your planning and tell a story about your development process and problem-solving strategy.
+ ### Development process and problem-solving strategy.
 Building tables on which the game will be built then JavaScript and css code
 
 
